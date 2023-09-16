@@ -1,0 +1,16 @@
+For the 1st ring:
+  - Rotate the pick with pins at positions 0, 4, 12, 14 to the right by 6 positions.
+  - Rotate the pick with pins at positions 1, 9, 19, 27 to the left by 5 positions.
+
+For the 2nd ring:
+  - Rotate the pick with pins at positions 0, 16, 18, 20 to the right by 6 positions.
+  - Rotate the pick with pins at positions 3 to the right by 1 positions.
+
+For the 3rd ring:
+  - Rotate the pick with pins at positions 20, 16 to the left by 2 positions.
+  - Rotate the pick with pins at positions 17 to the right by 11 positions.
+
+For the 4th ring:
+  - Rotate the pick with pins at positions 0, 16 to the left by 4 positions.
+  - Rotate the pick with pins at positions 0, 20 to the left by 14 positions.
+

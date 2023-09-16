@@ -1,0 +1,6 @@
+For the 1st ring:
+  - Rotate the pick with pins at positions 4, 12, 20 to the left by 4 positions.
+
+For the 2nd ring:
+  - Rotate the pick with pins at positions 0, 16 to the right by 2 positions.
+

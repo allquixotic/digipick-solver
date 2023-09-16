@@ -1,0 +1,21 @@
+[
+    {
+        "ring_index": 0,
+        "pins": [
+            4,
+            12,
+            20
+        ],
+        "direction": "left",
+        "amount": 4
+    },
+    {
+        "ring_index": 1,
+        "pins": [
+            0,
+            16
+        ],
+        "direction": "right",
+        "amount": 2
+    }
+]

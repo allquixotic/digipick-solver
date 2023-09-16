@@ -1,0 +1,15 @@
+{
+  "name": "digipick-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bunx --bun vite",
+    "build": "bunx --bun vite build",
+    "preview": "bunx --bun vite preview --https"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5",
+    "digipick-engine": "file:../engine"
+  }
+}

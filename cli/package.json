@@ -1,0 +1,10 @@
+{
+    "name": "digipick-cli",
+    "module": "digipick.js",
+    "version": "1.0.0",
+    "type": "module",
+    "dependencies": {
+      "minimist": "^1.2.8",
+      "digipick-engine": "file:../engine"
+    }
+}

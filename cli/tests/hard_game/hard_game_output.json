@@ -1,0 +1,78 @@
+[
+    {
+        "ring_index": 0,
+        "pins": [
+            0,
+            4,
+            12,
+            14
+        ],
+        "direction": "right",
+        "amount": 6
+    },
+    {
+        "ring_index": 0,
+        "pins": [
+            1,
+            9,
+            19,
+            27
+        ],
+        "direction": "left",
+        "amount": 5
+    },
+    {
+        "ring_index": 1,
+        "pins": [
+            0,
+            16,
+            18,
+            20
+        ],
+        "direction": "right",
+        "amount": 6
+    },
+    {
+        "ring_index": 1,
+        "pins": [
+            3
+        ],
+        "direction": "right",
+        "amount": 1
+    },
+    {
+        "ring_index": 2,
+        "pins": [
+            20,
+            16
+        ],
+        "direction": "left",
+        "amount": 2
+    },
+    {
+        "ring_index": 2,
+        "pins": [
+            17
+        ],
+        "direction": "right",
+        "amount": 11
+    },
+    {
+        "ring_index": 3,
+        "pins": [
+            0,
+            16
+        ],
+        "direction": "left",
+        "amount": 4
+    },
+    {
+        "ring_index": 3,
+        "pins": [
+            0,
+            20
+        ],
+        "direction": "left",
+        "amount": 14
+    }
+]

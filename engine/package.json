@@ -1,0 +1,6 @@
+{
+    "name": "digipick-engine",
+    "module": "digipick-engine.js",
+    "version": "1.0.0",
+    "type": "module"
+}
