@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <title>Digipick Solver</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    
+  <script type="module" crossorigin src="/assets/index-d44a9ff6.js"></script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <div class="container">
+        <h1>Digipick Solver</h1>
+        <hr/>
+
+        <h2>Instructions</h2>
+        <p>This is a solver for the Digipick mini-game in Bethesda's Starfield (2023). Code: <a href="https://github.com/allquixotic/digipick-solver">Click Here</a></p>
+        <p>Digipick game has 32 possible positions. They are represented in this tool by numbers from 0 (top center) to 31 (the position immediately to the left of top center), with the number increasing clockwise.</p>
+        <p>Click "Add Pick" and fill in the pins of each pick you have based on their zero-based index. Put a comma between each number.</p>
+        <p>Click "Add Ring" and fill in the holes of each ring you have based on their zero-based index. Put a comma between each hole position.</p>
+        <p>Click "Solve" and the output will be displayed, or an error if no solution could be found.</p>
+
+        <hr/>
+        <h2>Define Picks</h2>
+        <div id="picks">
+            <button class="btn btn-primary" onclick="addPick()">Add Pick</button>
+            <div class="pick">
+                <hr/>
+                <button class="btn btn-danger" onclick="removePick(0)">Remove</button>
+                <input type="text" class="form-control pick-positions">
+            </div>
+        </div>
+
+        <hr/>
+        <h2>Define Rings</h2>
+        <div id="rings">
+            <button class="btn btn-primary" onclick="addRing()">Add Ring</button>
+            <div class="ring">
+                <hr/>
+                <button class="btn btn-danger" onclick="removeRing(0)">Remove</button>
+                <input type="text" class="form-control ring-holes">
+            </div>
+        </div>
+
+        <hr/>
+        <h2>Solution</h2>
+        <button class="btn btn-success" onclick="solve()">Solve</button>
+        <div class="border"><pre id="output">The solution will be displayed here.</pre></div>
+    </div>
+</body>
+
+</html>
