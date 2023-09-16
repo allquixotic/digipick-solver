@@ -18,15 +18,16 @@ jobs:
         with:
           bun-version: latest
 
-      - run: cd web
       - run: bun install
+        working-directory: ./web
       - run: bun vitebuild
+        working-directory: ./web
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
         with:
           name: production-files
-          path: ./dist
+          path: ./web/dist
 
   deploy:
     name: Deploy
